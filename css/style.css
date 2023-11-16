@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #4e4e4e;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1 {
+    color: rgb(135,130,210,1);
+}
+
+body {
+    background-image: url(/images/fondo_categorias.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: center;   
+    background-color: #4e4e4e;
+    width: 100%;
+}
+
+ul a {
+    color: bisque;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    color: beige;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+    
+}
+
+
+
+
+
+#section_portada {
+    position: relative;
+    font-size: 35pt;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section_portada h2 {
+    padding-top: 35px;
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+}
+
+#section_portada div {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#estilos {
+    background-color: rgba(255,255,255);
+}
+
+#section_artes {
+    
+    background: linear-gradient(0deg, rgba(124, 124, 129, 0) 50%, rgba(255,255,255) 50%);
+    padding-top: 20px;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#section_artes div {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#section_artes div img {
+    width: 100%;
+    background: rgb(135,130,210);
+}
+
+#abstracto {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#renacentista {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+#figurativo {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section_categorias {
+    margin: 5px;
+}
+
+#section_categorias div {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section_categorias a {
+    color: #000000; 
+    background-color: rgba(255,255,255);
+    padding: 10px 20px; 
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(202, 180, 176);
+}
+
+footer a:hover {
+    text-align: center;
+    width: 30px;
+    background-color: violet;
+    border-radius: 30%;
+}
+
+@media (min-width:500px) { 
+
+    #section_artes {
+        background: rgb(255, 255, 255);
+        padding-top: 20px;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    #section_artes div img {
+        width: 70%;
+        
+    }
+
+    #section_categorias {
+        margin: 200px;
+        padding: 10px;
+        
+    }
+
+    #estilos {
+        background-color: rgba(255,255,255);
+        padding-left: 20%;
+    }
+ }
