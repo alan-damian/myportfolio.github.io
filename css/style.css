@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background-image: url(images/fondo_categorias.png);
+    background-image: url(/images/fondo_categorias.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
